@@ -16,6 +16,8 @@ sizeof() 利用这个关键字可以统计数据类型所占用内存大小
 单精度 float
 双精度 double
 
+字符型
+字符型变量用于显示单个字符
 */
 int main(){
     // 整型
@@ -35,7 +37,12 @@ int main(){
     cout << f1 << endl;
     cout << d1 << endl;
 
- 
+    cout << "float占用的内存空间为:" << sizeof(float) << endl;
+    cout << "double占用的内存空间为:" << sizeof(double) << endl;
+    
+    char ch = 'a'
+
+    
     // 输出hello world c++
     cout << "hello world c++" << endl;
     
