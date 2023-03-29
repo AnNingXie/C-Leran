@@ -18,6 +18,26 @@ sizeof() 利用这个关键字可以统计数据类型所占用内存大小
 
 字符型
 字符型变量用于显示单个字符
+char ch = 'a';
+单引号,不能使用双引号
+单引号里面只能有一个字符
+字符型所占的内存空间为1
+
+字符串型
+表示一串字符
+char str1[] = "hello world";
+string str2 = "wolrd hello";
+
+布尔类型
+代表真或假的值
+bool flag = true;
+bool flag = false;
+
+数据的输入
+用于从键盘获取数据
+cin >> num;
+
+
 */
 int main(){
     // 整型
@@ -40,9 +60,28 @@ int main(){
     cout << "float占用的内存空间为:" << sizeof(float) << endl;
     cout << "double占用的内存空间为:" << sizeof(double) << endl;
     
-    char ch = 'a'
+    // 字符型
+    char ch = 'a';
+    cout << "char占用的内存空间为:" << sizeof(char) << endl;
 
-    
+    // 字符串
+    char str1[] = "hello world";
+    cout << str1 << endl;
+
+    string str2 = "wolrd sie";
+    cout << str2 << endl;
+
+    // 布尔类型
+    bool flag1 = true;
+    bool flag2 = false;
+    flag1 = false;
+
+    // 数据的输入
+    int num = 0;
+    cout << "请输入整形变量:" << endl;
+    cin >> num;
+    cout << num << endl;
+
     // 输出hello world c++
     cout << "hello world c++" << endl;
     
