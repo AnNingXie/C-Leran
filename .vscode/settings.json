@@ -3,6 +3,9 @@
         "ostream": "cpp",
         "iostream": "cpp",
         "iosfwd": "cpp",
-        "algorithm": "cpp"
-    }
+        "algorithm": "cpp",
+        "__bit_reference": "cpp",
+        "ratio": "cpp"
+    },
+    "git.ignoreLimitWarning": true
 }
